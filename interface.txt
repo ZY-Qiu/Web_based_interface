@@ -1,0 +1,5 @@
+login后和数据库通信地址不变，传回的信息会通过setUser接口保存，信息格式见userModule.js中currentUser例子
+后端提供接口'http://localhost:8000/api/order'(cid)，在main.js中访问得到
+SELECT ...(见CompanyModule.js中history例子）
+FROM VEH_CUST join OFFICE join VEHICLE join VELTYPE
+WHERE cid = VEH_CUST.cid;

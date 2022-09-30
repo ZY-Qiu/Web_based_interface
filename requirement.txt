@@ -1,0 +1,4 @@
+request(cid): "http://localhost:8000/APP/requestRenting"
+[{vin: 30, type: "A", make: "B", model: "C", pickdate: "05-07-2022", pickloc: "NY", droploc: "LA", startodometer: 3000}]
+
+post(returnData:{endorometer: '', cardNumber: '', method_ID: ''}: "http://localhost:8000/APP/ReturnCar"

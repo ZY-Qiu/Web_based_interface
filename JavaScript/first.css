@@ -1,0 +1,12 @@
+body {
+    font: 30px 微软雅黑;
+}
+
+.header {
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    font: bolder 700 50px 微软雅黑;
+}
